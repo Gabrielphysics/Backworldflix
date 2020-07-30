@@ -9,7 +9,7 @@ function Menu () {
         <nav className="Menu">
             <a href="/">
                 <img className="Logo" src={LOGO} alt="back world logo"/>
-                <p>fala ae Rael funfou</p>
+                <p>fala ae Rael funfou brabo</p>
             </a>
 
             <Button as="a" className="ButtonLink" href="/">
