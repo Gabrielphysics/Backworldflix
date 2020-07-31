@@ -8,6 +8,22 @@ function CadastroCategoria(){
     return(
       <PageDefault>
        <h1 className="oi">Cadastro de Categoria</h1>
+       
+        <form>
+
+          <label>
+            Nome da Categoria:
+            <input
+              type="text"
+            />
+          </label>
+
+          <button className="oi">
+            Cadastrar
+          </button>
+        </form>
+
+
        <Link to="/">
          Ir para Home
 
