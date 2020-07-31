@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Amatic SC', sans-serif;
-  color: white;
+  color: #ffffff;
 }
 
 :root {
@@ -10,7 +10,7 @@
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
-  --white: #FFFFFF;
+  --white: #ffffff;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
 }
@@ -23,4 +23,17 @@ body {
 
 a {
   color: inherit;
+}
+
+.oi{
+  box-sizing: border-box;
+  font-family: 'Amatic SC', sans-serif;
+  color: #2A7AE4;
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  background: orange;
+  display: flex;
+  flex-direction: column ;
 }
